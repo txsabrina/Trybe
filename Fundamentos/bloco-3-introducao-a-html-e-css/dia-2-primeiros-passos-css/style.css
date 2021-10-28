@@ -1,0 +1,25 @@
+h1 {
+    font-size: 65px; 
+    color: orange;
+    font-family: sans-serif;
+    font-weight: 600px;
+    text-align: center;
+
+}
+ul {
+    background-color: greenyellow;
+    font-style: italic;
+}
+.nova-cor {
+    background-color: linen;
+}
+
+body{
+    font-size: 16px;
+
+}
+p{
+  font-size: 3em;
+  line-height: 50px;
+}
+
