@@ -1,0 +1,61 @@
+ol{
+    background-color: yellow;
+}
+
+.par{
+    color:green;
+}
+
+.impar{
+    text-transform:capitalize;
+}
+
+.title2{
+    color: red;
+}
+
+.title{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.list{
+    font-size: 20px;
+}
+
+.list2{
+    font-weight: bold;
+}
+
+.program{
+    color: blue;
+}
+
+.pro2{
+    background-color: pink;
+}
+
+.flow:hover{
+    color: orange;
+    font-weight: bold;
+}
+
+.schools:hover{
+    color: green;
+    font-weight: bold;
+}
+
+.MDN::hover{
+    color: black;
+    font-weight: bold;
+}
+
+.dev:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+.trybe:hover{
+    color: green;
+    font-weight: bold;
+}
