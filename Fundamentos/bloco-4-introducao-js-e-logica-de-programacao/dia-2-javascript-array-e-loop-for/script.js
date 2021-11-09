@@ -18,5 +18,12 @@ for(let index = 0; index < numbers.length ; index +=1){
 //console.log(sum);
 //Exercicio 3
 
-let total = sum/10;
- console.log(total);
+let Total = sum/10;
+//console.log(Total);
+//Exercicio 4
+
+if ( Total > 20 ){
+    console.log("valor maior que 20!")
+} else {
+    console.log("Valor menor ou igual a 20!")
+}
