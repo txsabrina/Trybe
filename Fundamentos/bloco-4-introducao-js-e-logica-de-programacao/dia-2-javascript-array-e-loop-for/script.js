@@ -15,5 +15,8 @@ for(let index = 0; index < numbers.length ; index +=1){
     sum += numbers[index];
 }
 
-console.log(sum);
+//console.log(sum);
+//Exercicio 3
 
+let total = sum/10;
+ console.log(total);
