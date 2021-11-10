@@ -1,20 +1,8 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// Exercicio 8
+let num = [];
 
-
-// Exercicio 6
-
-let impar = 0;
-
-
-
-for(index = 0; index <= numbers.length; index += 1){
-    if (numbers[index] % 2 !== 0){
-        impar += 1;
-    }
-
+for(let index = 1; index <= 25; index +=1) {
+    num.push(index);
 }
-if(impar === 0){
-    console.log("nenhum valor ímpar encontrado");
-} else {
-    console.log (impar);
-}
+
+console.log(num)
