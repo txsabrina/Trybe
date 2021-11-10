@@ -11,4 +11,10 @@ let leitor = {
     ],
   };
 
-  console.log( "o livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama " + leitor.livrosFavoritos[0].titulo);
+ leitor.livrosFavoritos[1] = {
+    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+    autor: 'JK Rowling',
+    editor: 'Rocco',
+  };
+  let qtdLivros = leitor.livrosFavoritos.length;
+  console.log("Julia tem " + qtdLivros + " livros favoritos");
