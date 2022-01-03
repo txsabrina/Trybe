@@ -1,20 +1,16 @@
-let leitor = {
-    nome: 'Julia',
-    sobrenome: 'Pessoa',
-    idade: 21,
-    livrosFavoritos: [
-      {
-        titulo: 'O Pior Dia de Todos',
-        autor: 'Daniela Kopsch',
-        editora: 'Tordesilhas',
-      },
-    ],
-  };
+// Exercicio de Funções - 1
 
- leitor.livrosFavoritos[1] = {
-    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-    autor: 'JK Rowling',
-    editor: 'Rocco',
-  };
-  let qtdLivros = leitor.livrosFavoritos.length;
-  console.log("Julia tem " + qtdLivros + " livros favoritos");
+function verificaPalindrome (palavra) {
+    var separaPalavra = palavra.split("");
+    var invertePalavra = separaPalavra.reverse();
+    var novaPalavra = invertePalavra.join("");
+
+    return novaPalavra;
+
+}
+if (novaPalavra === palavra){
+    console.log ("true");
+} else {
+    console.log("false");
+}
+

@@ -71,8 +71,11 @@
         document.querySelector('.title').innerText = 'Exercício 5.1 - JavaScript'
 
         //Quinto exercicio
-        
-       
+        let textos = document.querySelectorAll('.center-content');
+        for(i = 0; i <= textos.length; i ++){
+          textos[i].innerText = textos.toUpperCase();
+        }
+       console.log(textos);
         
         //Ultimo exercicio
         console.log(document.getElementsByTagName('p'));
