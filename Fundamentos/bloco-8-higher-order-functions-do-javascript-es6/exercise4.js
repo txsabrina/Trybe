@@ -63,8 +63,9 @@ const books = [
   
   // Adicione o código do exercício aqui:
 
-function fantasyOrScienceFiction() {
-  const filterBook = books.filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia');
-  return filterBook;
-}
-fantasyOrScienceFiction()
+ 
+function oldBooksOrdered() {
+    const filterBook = books.filter((item) =>  item.releaseYear < 1961)
+    return filterBook
+  }
+  console.log(oldBooksOrdered())
