@@ -68,4 +68,4 @@ function oldBooksOrdered() {
     const filterBook = books.filter((item) =>  item.releaseYear < 1961)
     return filterBook
   }
-  console.log(oldBooksOrdered())
+  oldBooksOrdered()
